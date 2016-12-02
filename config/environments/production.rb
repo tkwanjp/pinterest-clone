@@ -77,6 +77,6 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
   
-  3 Added as per Devise intallation instructions
-  config.action_nailer.default_url_options = { host: ‘pinterst-clone.herokuapp.com’ }
+  # 3 Added as per Devise intallation instructions
+  config.action_mailer.default_url_options = { host: 'pinterst-clone.herokuapp.com' }
 end
