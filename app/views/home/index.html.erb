@@ -2,7 +2,7 @@
 <div class="jumbotron center">
     <h1>WELCOME TO MY PINTEREST CLONE APP!</h1>
     <p>Looking cool?</p>
-    <%= link_to "Show Lists", pins_path %>
+    <%= link_to "List Pins", pins_path %>
 
     <% if user_signed_in? %>
         <%= link_to "Logout", destroy_user_session_path, method: :delete, class: 'btn btn-warning' %>
